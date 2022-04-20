@@ -1,1 +1,1 @@
-Popular Data Structure and Algorithms Implemented In Python 
+Popular Data Structures and Algorithms Implemented In Python 
