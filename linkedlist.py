@@ -1,6 +1,6 @@
 #linkedlist implementation in python 
 class Node:
-    def _init_(self,data=None):
+    def _init_(self,data):
         self.data = data
         self.next = None
 
