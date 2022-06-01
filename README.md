@@ -37,3 +37,11 @@
 * **Binary Search**
   * [binarysearch.py](binarysearch.py):Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n). 
   *  Real life example : Dictionary
+<<<<<<< HEAD
+=======
+
+
+* **Quicksort**
+  * [quicksort.py](quicksort.py):QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot.quicksort breaks down the problem of sorting the complete array into  smaller problems  by breaking down the array into smaller subarry. time complexity is n*log(n).
+  * Real life example : Numerical computations
+>>>>>>> a755f9ab477a26d01cc96121fcc742354afd6da7
