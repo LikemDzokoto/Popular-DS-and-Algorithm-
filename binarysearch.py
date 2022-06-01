@@ -6,9 +6,9 @@ class Search(object):
             if nums[middle] ==target:
                 return middle
             elif nums[middle] > target:
-                j = mid -1 
+                j = middle -1 
             else:
-                i = mid + 1
+                i = middle  + 1
         return -1     
         
         
