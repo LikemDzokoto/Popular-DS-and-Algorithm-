@@ -16,5 +16,5 @@ def quick_sort(numbers,la,hi):
     return numbers
 
 if __name__ == "__main__":
-    nums = [1, 3, 6, 7, 2, 4, 5, 8]
-    print(quick_sort(nums, 0, len(nums)-1))
+    numbers = [1, 3, 6, 7, 2, 4, 5, 8]
+    print(quick_sort(numbers, 0, len(numbers)-1))
