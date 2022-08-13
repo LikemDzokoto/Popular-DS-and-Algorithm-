@@ -19,8 +19,7 @@ def binary_search(my_list, item):
     while low <= high:
         mid = round((low + high)/2)
         guess = my_list[mid]
-0ac1e977aacd58b7fff5a6364b9dc1443bd1ec81
-        
+
         if guess == item:
             return guess
         if guess > item: #The guess was too high
