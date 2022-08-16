@@ -1,30 +1,35 @@
-from collections import deque
-
 class Queue:
-    def __init__(self, ):
-        self.queue = deque()
-        self.length = len(self.queue)
+    def __init__(self):
+        self.queue =[]
+    
+    #adding an element
+    def enqueue(self,item):
+        self.queue.append(item)
+    
+    #remove an element
+    
+    def dequeue(self):
+        if len(self.queue) < 1:
+            return None
+        return self.queue.pop(0)
 
-    def update(self, ):
-        try:
-            self.head = self.queue[0]
-            self.tail = self.queue[-1]
-        except (IndexError):
-            self.head = None
-            self.tail = None
-        finally:
-            return()
-    
-    def enqueue(self, item):
-        self.queue.extend(item)
-        self.update()
-        return self.queue
-    
-    def dequeue(self, ):
-        self.queue.popleft()
-        self.update()
-        return self.queue
-    
-    def show(self, ):
-        for item in self.queue:
-            print(item)
+    #display the queue
+    def display(self):
+        print(self.queue)
+
+    def size(self):
+        return  len(self.queue)
+
+q = Queue()
+q.enqueue(1)
+q.enqueue(2)
+q.enqueue(3)
+q.enqueue(4)
+q.enqueue(5)
+
+q.display()
+
+q.dequeue()
+
+print("After removing:")
+q.display()
