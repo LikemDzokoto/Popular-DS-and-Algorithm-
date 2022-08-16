@@ -4,6 +4,7 @@
 * **linkedlist**
   * [linkedlist.py](linkedlist.py): A list of nodes where a single node contains a data element and a reference to the next node.
   * Real life example: Music player playlist, Google Maps , Social Media.
+  * 
   
 * **Dictionary**
   * [dictionary.py](dictionary.py):A dictionary is a general-purpose data structure for storing a group of objects. A dictionary has a set of keys and each key has a single associated value. When presented with a key, the dictionary will return the associated value.
@@ -44,3 +45,5 @@
   * [quicksort.py](quicksort.py):QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot.quicksort breaks down the problem of sorting the complete array into  smaller problems  by breaking down the array into smaller subarry. time complexity is n*log(n).
   * Real life example : Numerical computations
 
+* **Bubblesort**
+  * [bubblesort.py](bubblesort.py): A bubble sort algorithm goes through a list of data a number of times, comparing two items that are side by side to see which is out of order. It will keep going through the list of data until all the data is sorted into order. Each time the algorithm goes through the list it is called a passed. best time complexity is n 
