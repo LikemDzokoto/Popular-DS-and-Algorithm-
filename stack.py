@@ -1,17 +1,28 @@
-from collections import deque
+#creating a stack 
+def create_stack():
+    stack = []
+    return stack 
 
-class Stack:
-    def __init__(self, ):
-        # I might add functionality to allow conversion of a list to a stack by adding it's
-        # items upon creation.
-        self.stack = deque()
+#creating an empty stack
+def check_empty(stack):
+    return len(stack) ==0
 
-    def add(self, item):
-        return self.stack.appendleft(item)
+#adding items onto  the stack
+def push(stack,item):
+    stack.append(item)
+    print("pushed"  + item)
 
-    def remove(self, item):
-        return self.stack.pop(item)
+#removing an element from the stack
+def  pop(stack):
+    if(check_empty(stack)):
+        return "stack is empty"
 
-    def show(self):
-        for item in self.stack:
-            yield(item)
+    return stack.pop()
+
+stack = create_stack()
+push(stack,str(1))
+
+push(stack,str(2))
+push(stack,str(3))
+print("popped: " + pop(stack))
+print("After popping: " + str(stack))
