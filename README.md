@@ -46,4 +46,4 @@
   * Real life example : Numerical computations
 
 * **Bubblesort**
-  * [bubblesort.py](bubblesort.py): A bubble sort algorithm goes through a list of data a number of times, comparing two items that are side by side to see which is out of order. It will keep going through the list of data until all the data is sorted into order. Each time the algorithm goes through the list it is called a passed. best time complexity is n 
+  * [bubblesort.py](bubblesort.py): A bubble sort algorithm goes through a list of data a number of times, comparing two items that are side by side to see which is out of order. It will keep going through the list of data until all the data is sorted into order. Each time the algorithm goes through the list it is called a passed. best time complexity is O(n)
